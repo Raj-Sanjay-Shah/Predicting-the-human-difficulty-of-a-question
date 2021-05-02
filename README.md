@@ -6,7 +6,7 @@ I have used four models to test out the accuracy for the classification of the l
 2. ALBERT
 3. Graph Convolutional Neural Network (Transductive nature but good for semi-supervised learning)
 4. GCN - Cheby (Graph Convolutional Networks using Chebyshev Polynomials)
-
+5. Hybrid GCN + BERT Model
 ## Requirements
 1. pip3 install -r requirements.txt
 2. Download questions from [here](https://www.google.com/url?q=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fpinafore-us-west-2%2Fqanta-jmlr-datasets%2Fqanta.train.2018.04.18.json&sa=D&sntz=1&usg=AFQjCNGf7EtqkO16UWbMx_eeAexvvoIXxw) and save as 'qanta.train.json'. Users can also change the value of the variable 'questions_file' in test_queries.py to the correct path.
@@ -14,12 +14,13 @@ I have used four models to test out the accuracy for the classification of the l
 
 ## Steps to run the code:
 1. Install all the requirements in the file requirements.txt by using the above code.
-2. python run.py
+2. python run.py (Comment/ Un-comment different lines to run different models)
 
 ## Results
-| Model | Test Accuracy |
+| Model | Test Accuracy (in percentage) |
 | :---:|     :---:      | 
 |BERT| 69.8|
 |ALBERT|64.4|
 |GCN|54.27|
 |GCN-Cheby|59.0|
+|Hybrid GCN + BERT|71.9|
