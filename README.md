@@ -11,8 +11,8 @@ I have used four models to test out the accuracy for the classification of the l
 
 | Model | Test Accuracy |
 |---------|-----------|
-|BERT| 66.8|
-|ALBERT|64.4|
-|GCN|56.2|
-|GCN-Cheby|58.6|
-|Hybrid||
+|:BERT:| :66.8:|
+|:ALBERT:|:64.4:|
+|:GCN:|:56.2:|
+|:GCN-Cheby:|:58.6:|
+|:Hybrid:|:XXX:|
