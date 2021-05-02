@@ -5,5 +5,5 @@ I have used four models to test out the accuracy for the classification of the l
 1. BERT
 2. ALBERT
 3. Graph Convolutional Neural Network (Transductive nature but good for semi-supervised learning)
-4. GCN + BERT Ensemble
+4. GCN - Cheby (Graph Convolutional Networks using Chebyshev Polynomials)
 
